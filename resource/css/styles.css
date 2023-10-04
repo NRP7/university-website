@@ -2,10 +2,10 @@
     width: 0;
     height: 0; 
 }
+
 .scrollable-news {
-    max-height: 84vh;
+    max-height: 100vh;
     overflow-y: scroll;
-    padding-right: 15px;
 }
 *{
     padding: 5;
@@ -29,11 +29,12 @@
 .title{
     text-align: center;
 }
-.news-item{
-    text-align: justify;
-}
 .news-item {
-    border: 1px solid #ccc;
+    background-color: #7d19355b;
+    border-radius: 25px;
+    border: 2px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
+    text-align: justify;
 }
+

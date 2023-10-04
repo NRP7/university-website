@@ -1,0 +1,39 @@
+.scrollable-news::-webkit-scrollbar {
+    width: 0;
+    height: 0; 
+}
+.scrollable-news {
+    max-height: 84vh;
+    overflow-y: scroll;
+    padding-right: 15px;
+}
+*{
+    padding: 5;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+.section-2 {
+    min-height: 100vh;
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+    /* text-align: center; */
+}
+.bg-custom {
+    background-color: #7D1935;
+}
+.bg-white {
+    background-color: white;
+}
+.title{
+    text-align: center;
+}
+.news-item{
+    text-align: justify;
+}
+.news-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}

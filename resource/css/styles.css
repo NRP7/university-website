@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('State.png'); /* Replace with your background image */
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  footer {
+    background-color: #800000; /* Maroon background color */
+    color: rgb(9, 0, 0);
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

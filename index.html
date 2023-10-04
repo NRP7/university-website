@@ -14,25 +14,45 @@
     <title>University of Bauan</title>
 </head>
 
-
 <body>
 
 
     <!-- HEADER OF THE UNIV WEBSITE -->
     <header class="header" id="header">
+        <div class="loader-container" id="preloader">
+            <div class="loader"></div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark nav-bg-custom">
+            <a class="navbar-brand" href="#"><img src="resource/img/Bauan-University-Logo-Banner.png" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#news">News</a>
+                    <a class="nav-link" href="#announcements">Announcements</a>
+                    <a class="nav-link" href="#courses">Courses</a>
+                    <a class="nav-link" href="#admission">Admission</a>
+                </div>
+            </div>
+        </nav>
 
-
-
-
-
-
-
-
-
+        <!-- content -->
+        <div class="container mt-5">
+            <div class="jumbotron p-5 card1 text-white">
+                <h1 class="display-4">Welcome to the University of Bauan</h1>
+                <p class="lead">The top choice university of students from around the world.</p>
+                <!-- lead is a typographic class -->
+                <hr class="my-4 bg-white">
+                <p>The University of Bauan provides all sorts of programs that will cater you with your endeavors.
+                    Achieve your dreams and start your journey with us. </p>
+                <a class="btn nav-bg-custom btn-lg btn-jb" href="#" role="button">Learn more</a>
+            </div>
+        </div>
     </header>
-
-
 
 
     <!-- NEWS AND ANNOUNCEMENT SECTION (section-2)-->
@@ -73,10 +93,10 @@
                                     <div class="news-item p-4">
                                         <h4 class="title">Bauan University's Green Vision</h4><br>
                                         <p id="news-4">Bauan City, October 1, 2023 <br><br>
-
-                                            Sustainability takes center stage as Bauan University's new campus
-                                            incorporates eco-friendly practices and green spaces. The university aims to
-                                            set an example by aligning education with environmental responsibility.</p>
+                                            Sustainability takes center stage as Bauan University's new
+                                            campus incorporates eco-friendly practices and green spaces. The
+                                            university aims to set an example by aligning education with
+                                            environmental responsibility.</p>
                                     </div>
 
                                 </div>
@@ -165,16 +185,9 @@
         </div>
     </section>
 
+
+    
     <section class="section-3" id="section-3">
-
-
-
-
-
-
-
-
-
 
 
 
@@ -182,21 +195,16 @@
 
 
 
-
-
     <!-- FOOTER SECTION -->
     <footer>
 
 
-
-
-
-
-
-
-
     </footer>
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+
+
+
+    <script src="/resource/js/script.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

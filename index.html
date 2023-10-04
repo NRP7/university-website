@@ -1,89 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <link rel="stylesheet" href="resource/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="resource/css/styles.css">
 
 
-        <title>University of Bauan</title>
-    </head>
+    <title>University of Bauan</title>
+</head>
+
+<body>
 
 
-    <body>
-
+    <!-- HEADER OF THE UNIV WEBSITE -->
+    <header class="header" id="header">
         <div class="loader-container" id="preloader">
             <div class="loader"></div>
         </div>
+        <nav class="navbar navbar-expand-lg navbar-dark nav-bg-custom">
+            <a class="navbar-brand" href="#"><img src="resource/img/Bauan-University-Logo-Banner.png" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- HEADER OF THE UNIV WEBSITE -->
-        <header class="header" id="header">
-            <!-- start ng navigation -->
-            <nav class="navbar navbar-expand-lg navbar-dark nav-bg-custom">
-                <a class="navbar-brand" href="#"><img src="resource/img/Bauan-University-Logo-Banner.png" class="logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto">
-                        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-link" href="#news">News</a>
-                        <a class="nav-link" href="#announcements">Announcements</a>
-                        <a class="nav-link" href="#courses">Courses</a>
-                        <a class="nav-link" href="#admission">Admission</a>
-                    </div>
-                </div>
-            </nav>
-
-            <!-- content -->
-            <div class="container mt-5">
-                <div class="jumbotron p-5 card1 text-white">
-                    <h1 class="display-4">Welcome to the University of Bauan</h1>
-                    <p class="lead">The top choice university of students from around the world.</p>
-                <!-- lead is a typographic class -->
-                    <hr class="my-4 bg-white">
-                    <p>The University of Bauan provides all sorts of programs that will cater you with your endeavors. Achieve your dreams and start your journey with us. </p>
-                    <a class="btn nav-bg-custom btn-lg btn-jb" href="#" role="button">Learn more</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#news">News</a>
+                    <a class="nav-link" href="#announcements">Announcements</a>
+                    <a class="nav-link" href="#courses">Courses</a>
+                    <a class="nav-link" href="#admission">Admission</a>
                 </div>
             </div>
-        </header>
+        </nav>
+
+        <!-- content -->
+        <div class="container mt-5">
+            <div class="jumbotron p-5 card1 text-white">
+                <h1 class="display-4">Welcome to the University of Bauan</h1>
+                <p class="lead">The top choice university of students from around the world.</p>
+                <!-- lead is a typographic class -->
+                <hr class="my-4 bg-white">
+                <p>The University of Bauan provides all sorts of programs that will cater you with your endeavors.
+                    Achieve your dreams and start your journey with us. </p>
+                <a class="btn nav-bg-custom btn-lg btn-jb" href="#" role="button">Learn more</a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- NEWS AND ANNOUNCEMENT SECTION (section-2)-->
+    <section class="section-2" id="section-2">
+        <div class="container-fluid bg-white text-white">
+            <div class="row text-custom">
+                <div class="col-md-5 news-cont">
+                    <div class="container-fluid">
+                        <div class="row bg-custom">
+                            <div class="col-md-12 bg-custom ">
+                                <h2 class="m-3 title">News</h2>
+                                <div class="scrollable-news overflow-auto">
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University Expands Horizons with New Campus</h4><br>
+                                        <p id="news-1">Bauan City, August 10, 2023 <br><br>
+
+                                            In an exciting development, Bauan University has announced plans to expand
+                                            its campus facilities. This expansion will accommodate a growing student
+                                            population and provide cutting-edge resources for academic excellence.</p>
+                                    </div>
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University Enhances Learning Environment</h4><br>
+                                        <p id="news-2">Bauan City, September 29, 2023 <br><br>
+
+                                            As part of its commitment to student success, Bauan University is investing
+                                            in modern facilities. The new campus will feature advanced laboratories, an
+                                            expanded library, and innovation spaces, fostering a dynamic learning
+                                            environment.</p>
+                                    </div>
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University's Green Vision</h4><br>
+                                        <p id="news-3">Bauan City, October 1, 2023 <br><br>
+
+                                            Sustainability takes center stage as Bauan University's new campus
+                                            incorporates eco-friendly practices and green spaces. The university aims to
+                                            set an example by aligning education with environmental responsibility.</p>
+                                    </div>
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University's Green Vision</h4><br>
+                                        <p id="news-4">Bauan City, October 1, 2023 <br><br>
+                                            Sustainability takes center stage as Bauan University's new
+                                            campus incorporates eco-friendly practices and green spaces. The
+                                            university aims to set an example by aligning education with
+                                            environmental responsibility.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 announcement-cont">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 bg-custom">
+                                <h2 class="m-3 title">Announcement</h2>
+                                <div class="scrollable-news overflow-auto">
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University Expands Horizons with New Campus</h4><br>
+                                        <p>Bauan City, August 10, 2023 <br><br>
+
+                                            In an exciting development, Bauan University has announced plans to expand
+                                            its campus facilities. This expansion will accommodate a growing student
+                                            population and provide cutting-edge resources for academic excellence.</p>
+                                    </div>
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University Enhances Learning Environment</h4><br>
+                                        <p>Bauan City, September 29, 2023 <br><br>
+
+                                            As part of its commitment to student success, Bauan University is investing
+                                            in modern facilities. The new campus will feature advanced laboratories, an
+                                            expanded library, and innovation spaces, fostering a dynamic learning
+                                            environment.</p>
+                                    </div>
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University's Green Vision</h4><br>
+                                        <p>Bauan City, October 1, 2023 <br><br>
+
+                                            Sustainability takes center stage as Bauan University's new campus
+                                            incorporates eco-friendly practices and green spaces. The university aims to
+                                            set an example by aligning education with environmental responsibility.</p>
+                                    </div>
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University's Green Vision</h4><br>
+                                        <p>Bauan City, October 1, 2023 <br><br>
+
+                                            Sustainability takes center stage as Bauan University's new campus
+                                            incorporates eco-friendly practices and green spaces. The university aims to
+                                            set an example by aligning education with environmental responsibility.</p>
+                                    </div>
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University Expands Horizons with New Campus</h4><br>
+                                        <p>Bauan City, August 10, 2023 <br><br>
+
+                                            In an exciting development, Bauan University has announced plans to expand
+                                            its campus facilities. This expansion will accommodate a growing student
+                                            population and provide cutting-edge resources for academic excellence.</p>
+                                    </div>
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University Enhances Learning Environment</h4><br>
+                                        <p>Bauan City, September 29, 2023 <br><br>
+
+                                            As part of its commitment to student success, Bauan University is investing
+                                            in modern facilities. The new campus will feature advanced laboratories, an
+                                            expanded library, and innovation spaces, fostering a dynamic learning
+                                            environment.</p>
+                                    </div>
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University's Green Vision</h4><br>
+                                        <p>Bauan City, October 1, 2023 <br><br>
+
+                                            Sustainability takes center stage as Bauan University's new campus
+                                            incorporates eco-friendly practices and green spaces. The university aims to
+                                            set an example by aligning education with environmental responsibility.</p>
+                                    </div>
+                                    <div class="news-item p-4">
+                                        <h4 class="title">Bauan University's Green Vision</h4><br>
+                                        <p>Bauan City, October 1, 2023 <br><br>
+
+                                            Sustainability takes center stage as Bauan University's new campus
+                                            incorporates eco-friendly practices and green spaces. The university aims to
+                                            set an example by aligning education with environmental responsibility.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="section-3" id="section-3">
 
 
 
-
-        <!-- NEWS AND ANNOUNCEMENT SECTION (section-2)-->
-        <section class="section-2" id="section-2">
-
-
-        </section>
+    </section>
 
 
 
-
-        <!-- COURSES AND ADMISSION SECTION (section-3)-->
-        <section class="section-3" id="section-3">
-
-
-        </section>
+    <!-- FOOTER SECTION -->
+    <footer>
 
 
-        <!-- FOOTER SECTION -->
-        <footer>
-
-
-        </footer>
+    </footer>
 
 
 
-        <script src="/resource/js/script.js"></script>
+    <script src="/resource/js/script.js"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
 
-    </body>
+</body>
 
 </html>

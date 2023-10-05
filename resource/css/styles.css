@@ -7,12 +7,24 @@
   max-height: 100vh;
   overflow-y: scroll;
 }
-* {
-  padding: 5;
-  margin: 0;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
+
+.close-scroll::-webkit-scrollbar {
+    width: 0;
+    height: 0;
 }
+
+.close-scroll {
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+* {
+    padding: 5;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+
 .section-2 {
   min-height: 100vh;
   background-color: red;
@@ -20,6 +32,7 @@
   background-size: cover;
   /* text-align: center; */
 }
+
 .bg-custom {
   background-color: #7d1935;
 }
@@ -28,138 +41,241 @@
 }
 .title {
   text-align: center;
+
+.s-2-title {
+    font-weight: 400;
 }
+
 .news-item {
-  background-color: #7d19355b;
-  border-radius: 25px;
-  border: 2px solid #ccc;
-  padding: 10px;
-  margin-bottom: 10px;
-  text-align: justify;
+    background-color: #7d19355b;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
 }
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  overflow: hidden; /* Hide scrollbars while loading */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    /* Hide scrollbars while loading */
 }
+
 .loader-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  background-image: linear-gradient(#1c1c1cb5, #1c1c1cb5),
-    url("../img/sample-preloader-bg.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999; /* Set a high z-index to place it above other content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#1c1c1cb5, #1c1c1cb5), url('../img/sample-preloader-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    /* Set a high z-index to place it above other content */
 }
 
 .loader {
-  width: 200px; /* Set the width and height to match your image dimensions */
-  height: 200px;
-  background-image: url("/resource/img/Bauan-University-Logo-Seal.png"); /* Replace 'circle-loader.png' with the path to your circular image */
-  background-size: cover;
-  animation: spin 2s linear infinite;
-  z-index: 10000; /* Ensure loader is on top of the overlay */
+    width: 200px;
+    /* Set the width and height to match your image dimensions */
+    height: 200px;
+    background-image: url('/resource/img/Bauan-University-Logo-Seal.png');
+    /* Replace 'circle-loader.png' with the path to your circular image */
+    background-size: cover;
+    animation: spin 2s linear infinite;
+    z-index: 10000;
+    /* Ensure loader is on top of the overlay */
 }
 
 @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .logo {
-  height: 70px;
+    height: 70px;
 }
 
 .header {
-  min-height: 100vh;
-  background-image: linear-gradient(#1c1c1cb5, #1c1c1cb5),
-    url("../img/sample-univ-bg.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 10px;
+    min-height: 100vh;
+    background-image: linear-gradient(#1c1c1cb5, #1c1c1cb5), url('../img/sample-univ-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px;
 }
 
 .card1 {
-  background-color: rgba(61, 0, 8, 0.7);
-  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(61, 0, 8, 0.7);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.200);
 }
 
 .nav-bg-custom {
-  background-color: #7d1935;
-  box-shadow: 0px 3px 0 rgba(0, 0, 0, 0.3);
+    background-color: #7d1935;
+    box-shadow: 0px 3px 0 rgba(0, 0, 0, 0.300);
 }
 
 .btn-jb {
-  color: white;
+    color: white
 }
 
 .loading-logo {
-  height: 500px;
-  width: 300px;
+    height: 500px;
+    width: 300px;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
+.text-custom {
+    color: #7d1937;
 }
 
-.fluid-container {
-  min-height: 100vh;
-  background-color: #ffff;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.bg-custom {
+    background-color: #7d1937;
 }
 
-.title {
-  text-align: center;
-  color: white;
+.collapse-text {
+    text-align: justify;
 }
 
-.section-3 {
-  background-color: #ffff;
+.border {
+    border-radius: 20px;
 }
 
-.card {
-  background-color: rgb(75, 0, 0);
+.section-2 {
+    min-height: 100vh;
+    max-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
 }
 
-.card2 {
-  background-color: #7d1935;
-  border-radius: 10px;
+.news {
+    overflow: hi;
 }
 
-.btn-scroll-to-top {
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  color: #7d1935;
-  border: none;
-  outline: none;
-  cursor: pointer;
+.close-scroll-news::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
 
-.btn-scroll-to-top:hover {
-  background: #7d1935;
-  color: white;
+.close-scroll {
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+
+.shadow {
+    box-shadow: 0px 3px 0 rgba(0, 0, 0, 0.300);
+}
+
+.announcement {
+    overflow: hidden;
+}
+
+.a-pic {
+    border-radius: 20px;
+}
+
+.carousel-bg {
+    background-color: hsla(343, 67%, 29%, 0.815);
+    border-radius: 20px;
+}
+
+.card:hover .card-body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+
+}
+
+.card:hover .news-title {
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card:hover {
+    background-color: rgb(238, 238, 238);
+    border: none;
+}
+
+.card:hover .card-header {
+    background-color: #7d1935;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.read-more-btn:hover {
+    background-color: #580f0f;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.read-more:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.read-more-btn {
+    border-radius: 10px;
+}
+
+.news-title {
+    color: #7d1935;
+}
+.jumbo-btn:hover{
+    color: white;
+    background-color: #580f0f;
+}
+
+
+
+.jumbotron-1{
+    background-image:linear-gradient(#520d0d94 , #520d0d94);
+    color: #ffffff;
+    padding: 10px;
+    margin: 20px;
+}
+
+.jumbotron-2{
+    background-image:linear-gradient(#520d0d94 , #520d0d94);
+    color: #ffffff;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-maroon{
+    background-image:linear-gradient(#9f0404ae, #000000ae);
+
+}
+
+.btn-dark-red{
+    background-image:linear-gradient(#500f0fae, #000000ae);
+}
+
+.bg-maroon{
+    background-color: #7D1935;
+}
+
+.bg-maroon2{
+    background-color: #7D1935;
+}
+  
+.footer {
+background-color: #7d1935; /* Maroon background color */
+color: white;
+min-height: 5vh;
 }

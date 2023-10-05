@@ -228,16 +228,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
 .jumbotron-1{
     background-image:linear-gradient(#520d0d94 , #520d0d94);
     text-color: #fff;
@@ -267,4 +257,10 @@ body {
 
 .bg-maroon2{
     background-color: #7D1935;
+}
+  
+.footer {
+background-color: #7d1935; /* Maroon background color */
+color: white;
+min-height: 5vh;
 }

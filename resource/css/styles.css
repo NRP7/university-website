@@ -228,7 +228,36 @@ body {
 
 
 
+.jumbotron-1{
+    background-image:linear-gradient(#520d0d94 , #520d0d94);
+    text-color: #fff;
+    padding: 10px;
+    margin: 20px;
+}
 
+.jumbotron-2{
+    background-image:linear-gradient(#520d0d94 , #520d0d94);
+    text-color: #fff;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-maroon{
+    background-image:linear-gradient(#9f0404ae, #000000ae);
+
+}
+
+.btn-dark-red{
+    background-image:linear-gradient(#500f0fae, #000000ae);
+}
+
+.bg-maroon{
+    background-color: #7D1935;
+}
+
+.bg-maroon2{
+    background-color: #7D1935;
+}
   
 .footer {
 background-color: #7d1935; /* Maroon background color */

@@ -225,3 +225,13 @@ body {
     color: white;
     background-color: #580f0f;
 }
+
+
+
+
+  
+.footer {
+background-color: #7d1935; /* Maroon background color */
+color: white;
+min-height: 5vh;
+}

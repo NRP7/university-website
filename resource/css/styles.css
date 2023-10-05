@@ -230,11 +230,8 @@ body {
 
 
   
-footer {
-background-color: #800000; /* Maroon background color */
-color: rgb(9, 0, 0);
-padding: 20px;
-position: fixed;
-bottom: 0;
-width: 100%;
+.footer {
+background-color: #7d1935; /* Maroon background color */
+color: white;
+min-height: 5vh;
 }

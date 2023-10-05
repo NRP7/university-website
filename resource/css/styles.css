@@ -260,3 +260,11 @@ body {
 .btn-dark-red{
     background-image:linear-gradient(#500f0fae, #000000ae);
 }
+
+.bg-maroon{
+    background-color: #7D1935;
+}
+
+.bg-maroon2{
+    background-color: #7D1935;
+}

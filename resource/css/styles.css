@@ -225,3 +225,38 @@ body {
     color: white;
     background-color: #580f0f;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jumbotron-1{
+    background-image:linear-gradient(#520d0d94 , #520d0d94);
+    text-color: #fff;
+    padding: 10px;
+    margin: 20px;
+}
+
+.jumbotron-2{
+    background-image:linear-gradient(#520d0d94 , #520d0d94);
+    text-color: #fff;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-maroon{
+    background-image:linear-gradient(#9f0404ae, #000000ae);
+
+}
+
+.btn-dark-red{
+    background-image:linear-gradient(#500f0fae, #000000ae);
+}

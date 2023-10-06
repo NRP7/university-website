@@ -1,8 +1,9 @@
 // script.js
 document.addEventListener("DOMContentLoaded", function () {
-
-    hideLoader();
-
+    
+    setTimeout(function () {
+        hideLoader();
+    }, 2000); // Adjust the delay as needed
 
     function hideLoader() {
         // Find the loader container element

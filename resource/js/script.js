@@ -1,10 +1,8 @@
 // script.js
 document.addEventListener("DOMContentLoaded", function () {
-    // // Simulate a delay for demonstration purposes (remove this line in your actual implementation)
-    // setTimeout(function () {
-    //     hideLoader();
-    // }, 2000); // Adjust the delay as needed
 
+    hideLoader();
+    
     function hideLoader() {
         // Find the loader container element
         const loaderContainer = document.querySelector(".loader-container");

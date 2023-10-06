@@ -17,7 +17,7 @@
 
 .section-2 {
     min-height: 100vh;
-    background-color: red;
+    background-color: #7d1935;
     background-position: center;
     background-size: cover;
     /* text-align: center; */
@@ -144,34 +144,27 @@ body {
     /* overflow: hidden; */
 }
 
-.news {
-    overflow: hi;
-}
-
 .close-scroll-news::-webkit-scrollbar {
     width: 0px;
     height: 0px;
 }
 
 .close-scroll {
-    max-height: 90vh;
+    max-height: 88vh;
     overflow-y: scroll;
 }
 
-.shadow {
-    box-shadow: 0px 3px 0 rgba(0, 0, 0, 0.300);
-}
-
-.announcement {
-    overflow: hidden;
-}
-
-.a-pic, .bg-section-3 {
-    border-radius: 20px;
+.shadow-s2{
+    box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, 0.300);
 }
 
 .carousel-bg {
-    background-color: hsla(343, 67%, 29%, 0.815);
+    background-color: #7d1935ce;
+    border-radius: 20px;
+}
+
+.carousel-bg-s-3 {
+    background-color: hsla(0, 0%, 100%, 0.750);
     border-radius: 20px;
 }
 
@@ -198,9 +191,9 @@ body {
 }
 
 .read-more-btn:hover {
-    background-color: #580f0f;
+    background-image: linear-gradient(#7d1935, #580f0f);
     color: #fff;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-image 0.3s, color 0.3s;
 }
 
 .read-more:hover {
@@ -221,55 +214,72 @@ body {
 .news-title {
     color: #7d1935;
 }
-.jumbo-btn:hover{
+
+.jumbo-btn:hover {
     color: white;
-    background-color: #580f0f;
+    background-image: linear-gradient(#7d1935, #580f0f);
 }
 
-
-
-.jumbotron-1{
-    background-image:linear-gradient(#7d1935, #580f0f);
-    text-color: #fff;
+.jumbotron-1,
+.jumbotron-2 {
+    background-color: white;
+    color: rgb(0, 0, 0);
     padding: 10px;
     margin: 20px;
-}
-
-.jumbotron-2{
-    background-image:linear-gradient(#7d1935 , #580f0f);
-    text-color: #fff;
-    padding: 10px;
-    margin: 20px;
-}
-
-.btn-maroon{
-    background-image:linear-gradient(#580f0f, #7d1935);
-
-}
-
-.btn-dark-red{
-    background-image:linear-gradient(#580f0f, #7d1935);
-}
-
-.bg-maroon{
-    background-color: #7d1935;
-}
-
-.bg-maroon2{
-    background-color: #7d1935;
-}
-  
-.footer {
-background-color: #7d1935; /* Maroon background color */
-color: white;
-min-height: 5vh;
-}
-
-
-.padding-section-3{
-    padding-bottom: 60px;
-}
-
-.carousel-inner{
     border-radius: 20px;
+}
+
+.btn-maroon {
+    background-color: #7D1935;
+
+}
+
+.btn-maroon:hover {
+    background-image: linear-gradient(#7d1935, #580f0f);
+}
+
+.bg-maroon {
+    background-color: #7d1935;
+}
+
+.footer {
+    background-color: #7d1935;
+    color: white;
+    min-height: 5vh;
+}
+
+
+.padding-section-3 {
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.carousel-inner,
+.jumbo-s-4 {
+    border-radius: 20px;
+}
+
+.border-r {
+    box-shadow: 100px;
+}
+
+.section-3 {
+    min-height: 100vh;
+    max-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.jumbo-s-4 {
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.row-3{
+    top: 50%;
+    left: 50%;
 }

@@ -84,7 +84,7 @@ body {
     width: 200px;
     /* Set the width and height to match your image dimensions */
     height: 200px;
-    background-image: url('/resource/img/Bauan-University-Logo-Seal.png');
+    background-image: url('resource/img/Bauan-University-Logo-Seal.png');
     /* Replace 'circle-loader.png' with the path to your circular image */
     background-size: cover;
     animation: spin 2s linear infinite;

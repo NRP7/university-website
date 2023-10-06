@@ -38,10 +38,10 @@ window.addEventListener('scroll', function() {
     }
 });
 
-$(document).ready(function () {
-    $('#card-carousel').carousel({
-        interval: 3000, // Set the interval between slides (in milliseconds)
-        pause: false,   // Set to true if you want to pause on hover
-        wrap: true      // Set to true for continuous looping
-    });
-});
+// $(document).ready(function () {
+//     $('#card-carousel').carousel({
+//         interval: 3000, // Set the interval between slides (in milliseconds)
+//         pause: false,   // Set to true if you want to pause on hover
+//         wrap: true      // Set to true for continuous looping
+//     });
+// });

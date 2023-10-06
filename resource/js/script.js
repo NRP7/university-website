@@ -1,8 +1,24 @@
-// script.js
 document.addEventListener("DOMContentLoaded", function () {
+    // Display the pre-loader when the page starts loading
+    showLoader();
 
-    hideLoader();
-    
+    // Add an event listener to wait for the page to fully load
+    window.onload = function () {
+        // Hide the pre-loader once the page has finished loading
+        hideLoader();
+    };
+
+    function showLoader() {
+        // Find the loader container element
+        const loaderContainer = document.querySelector(".loader-container");
+
+        // Set its display style to "block" to show it
+        loaderContainer.style.display = "block";
+
+        // Hide the scrollbars
+        document.body.style.overflow = "hidden";
+    }
+
     function hideLoader() {
         // Find the loader container element
         const loaderContainer = document.querySelector(".loader-container");

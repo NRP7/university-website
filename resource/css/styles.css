@@ -26,11 +26,18 @@
 }
 
 .section-2 {
+    display:flex;
     min-height: 100vh;
     background-color: #7d1935;
     background-position: center;
     background-size: cover;
-    display:flex
+    background-repeat: no-repeat;
+    display:flex;
+}
+
+.section-2-padding {
+    padding-top: 7%;
+    padding-bottom: 3%;
 }
 
 .bg-custom {
@@ -107,7 +114,7 @@ body {
 }
 
 .header {
-    min-height: 100vh;
+    padding-bottom: 5vh;
     background-image: linear-gradient(hsla(0, 0%, 11%, 0.90), hsla(0, 0%, 11%, 0.900)), url('../img/sample-univ-bg.jpg');
     background-position: center;
     background-size: cover;
@@ -117,6 +124,7 @@ body {
 
 .header-text{
     font-weight: bold;
+    
 }
 
 .card1 {
@@ -151,16 +159,6 @@ body {
 
 .border {
     border-radius: 20px;
-}
-
-.section-2 {
-    display: flex;
-    min-height: 100vh;
-    max-height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* overflow: hidden; */
 }
 
 .close-scroll-news::-webkit-scrollbar {
@@ -428,3 +426,4 @@ body {
 .color-change:hover{
     filter: brightness(75%);
 }
+
